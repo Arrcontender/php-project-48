@@ -1,0 +1,21 @@
+{
+    "name": "hexlet/code",
+    "description": "Second Hexlet project",
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Code\\": "src/"
+        }, "files": []
+        
+    },
+    "authors": [
+        {
+            "name": "Arrcontender",
+            "email": "dramman4@gmail.com"
+        }
+    ],
+    "require": {
+        "docopt/docopt": "^1.0"
+    },
+    "bin": ["bin/gendiff"],
+    "license": "proprietary"
+}
